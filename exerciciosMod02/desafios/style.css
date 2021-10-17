@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+body{
+    background-color: #59A96A;
+    margin: 0px;
+}
+
+header{
+    background-image: linear-gradient(to top, #1c632b,#9BDEAC);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: azure;
+    box-shadow: 0px 3px 8px black;
+    padding-bottom: 2px;
+    padding-top: 10px;
+}
+
+.titulo01{
+    text-align: center;
+}
+
+header > nav > a{
+    text-align:left;
+    color: azure;
+    text-decoration:none;
+    padding-left: 10px;        
+}
+
+nav > a:hover{
+    background-color: rgba(199, 238, 160, 0.26);
+    text-shadow: 3px 3px 3px black;
+}
+
+article{
+    width: 1100px;
+    background-color: white;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 5px black;
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.letras{
+    font-family: android;
+}
+
+article > h3{
+    padding-left: 10px;
+    background-color:#9BDEAC ;
+}
+
+div{
+    margin: 10px 125px;
+}
+
+div#imagemA{
+    margin: 10px 400px;
+}
+
+iframe{
+    margin: 10px 25%;
+}
+
+section{
+    background-color: #9BDEAC;
+    box-shadow: 2px 2px 2px black;
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+section > h4{
+    padding: 10px;
+    background-color: #59A96A;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article > section{
+    margin: 5%;
+}
+
+article > section > p{
+    margin:10px;
+}
+
+article > p{
+    padding-bottom: 15px;
+}
+
+footer{
+    width: auto;
+    height: 30px;
+    background-color: #1c632b;
+    padding: px;
+}
+
+footer > p{
+    text-align: right;
+    padding-top: 5px;
+}
